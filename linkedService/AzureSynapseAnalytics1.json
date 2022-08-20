@@ -1,0 +1,12 @@
+{
+	"name": "AzureSynapseAnalytics1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=project5synapseanalytics.sql.azuresynapse.net;initial catalog=project5dedicatedsqlpool;user id=sqlserveradmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDgyNTc3QTc2LTlCRkItNDM1OS05MTAwLTBFOTFBNDk1MjM1NF81N2JiMzMwYy0wYThhLTRlYTgtYjc3OC02YzgyYTJiZmY0NmYiDQp9"
+		}
+	}
+}
